@@ -612,10 +612,35 @@ section {
 .blog-details {
   text-align: center;
   color: #000000;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .blog-date {
   color: #000000;
+}
+
+.blog-post table, th, tr, td {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-post img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-post th, td {
+  padding: 10px;
+}
+
+.blog-post ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*--------------------------------------------------------------
